@@ -161,7 +161,6 @@ public class Container {
 			@SuppressWarnings("deprecation")
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				JDialog about = new JDialog();
 				about.setTitle("About");
 				about.setSize(600, 350);
@@ -359,7 +358,7 @@ public class Container {
 			return;
 		if(!isEqual(cell, temp)) {
 			rmBorder();
-			setNumForAvailableCell(); // TODO: Add to each movement, because every movement needs a new number created
+			setNumForAvailableCell(); // Add to each movement, because every movement needs a new number created
 		}
 	}
 
@@ -373,7 +372,7 @@ public class Container {
 			return;
 		if(!isEqual(cell, temp)) {
 			rmBorder();
-			setNumForAvailableCell(); // TODO: Add to each movement, because every movement needs a new number created
+			setNumForAvailableCell(); // Add to each movement, because every movement needs a new number created
 		}
 	}
 
@@ -387,7 +386,7 @@ public class Container {
 			return;
 		if(!isEqual(cell, temp)) {
 			rmBorder();
-			setNumForAvailableCell(); // TODO: Add to each movement, because every movement needs a new number created
+			setNumForAvailableCell(); // Add to each movement, because every movement needs a new number created
 		}
 	}
 
@@ -401,7 +400,7 @@ public class Container {
 			return;
 		if(!isEqual(cell, temp)) {
 			rmBorder();
-			setNumForAvailableCell(); // TODO: Add to each movement, because every movement needs a new number created
+			setNumForAvailableCell(); // Add to each movement, because every movement needs a new number created
 		}
 	}
 
